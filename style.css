@@ -1,0 +1,80 @@
+.container {
+    display: flex;
+    flex-flow: column;
+    width: 200px;
+    height: 600px;
+    background-color: white;
+    border-color: black;
+    border-width: 10px;
+    border-style: solid;
+}
+
+.border {
+    display: flex;
+    width: 90%;
+    height: 30%;
+    margin: auto;
+}
+
+#darkRed {
+    background-color: rgb(114, 13, 13);
+}
+
+#darkYellow {
+    background-color: rgb(179, 154, 15);
+}
+
+#darkGreen {
+    background-color: rgb(7, 70, 7);
+}
+
+.box {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 90%;
+    height: 90%;
+    margin: auto;
+}
+
+#red {
+    background-color: red;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#green {
+    background-color: green;
+}
+
+.redBoxFill {
+    align-self: flex-end;
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    opacity: 70%;
+}
+
+.yellowBoxFill {
+    align-self: flex-end;
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    opacity: 70%;
+}
+
+.greenBoxFill {
+    align-self: flex-end;
+    width: 50%;
+    height: 50%;
+    background-color: white;
+    opacity: 70%;
+}
+
+/*
+.cover{
+    width: 50%;
+    height: 100%;
+    background-color: yellow;
+}
