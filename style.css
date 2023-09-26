@@ -19,7 +19,7 @@ body {
 
 .pole {
     width: 30px;
-    height: 400px;
+    height: 350px;
     background-color: black;
     position: absolute;
     z-index: -1;
