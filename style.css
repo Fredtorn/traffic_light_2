@@ -74,45 +74,112 @@ body {
 }
 
 #red {
-    background-color: red;
+    background-color: black;
     display: flex;
     align-items: flex-end;
+    animation: redBig 6s 4s infinite;
+}
+
+@keyframes redBig {
+    0% {
+        background-color: black;
+    }
+
+    20% {
+        background-color: red;
+    }
 }
 
 #yellow {
-    background-color: yellow;
+    background-color: black;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+    animation: yellowBig 6s 2s infinite;
+}
+
+@keyframes yellowBig {
+    0% {
+        background-color: black;
+    }
+
+    20% {
+        background-color: yellow;
+    }
 }
 
 #green {
-    background-color: green;
+    background-color: black;
     display: flex;
     align-items: flex-end;
+    animation: greenBig 6s infinite;
 
+}
+
+@keyframes greenBig {
+    0% {
+        background-color: black;
+    }
+
+    20% {
+        background-color: green;
+    }
 }
 
 .redBoxFill {
     width: 100%;
     height: 50%;
-    background-color: white;
-    opacity: 70%;
+    background-color: black;
+    opacity: 50%;
     border-radius: 0 0 50px 50px;
+    animation: redSmall 6s 4s infinite;
+}
+
+@keyframes redSmall {
+    0% {
+        background-color: black;
+    }
+
+    20% {
+        background-color: white;
+    }
 }
 
 .yellowBoxFill {
     width: 50%;
     height: 50%;
-    background-color: white;
-    opacity: 70%;
+    background-color: black;
+    opacity: 50%;
     border-radius: 0 0 50px 0;
+    animation: yellowSmall 6s 2s infinite;
 }
+
+@keyframes yellowSmall {
+    0% {
+        background-color: black;
+    }
+
+    33% {
+        background-color: white;
+    }
+}
+
 
 .greenBoxFill {
     width: 50%;
     height: 50%;
-    background-color: white;
-    opacity: 70%;
+    background-color: black;
+    opacity: 50%;
     border-radius: 0 0 0 50px;
+    animation: greenSmall 6s infinite;
+}
+
+@keyframes greenSmall {
+    0% {
+        background-color: black;
+    }
+
+    33% {
+        background-color: white;
+    }
 }
